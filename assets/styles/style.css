@@ -1,6 +1,7 @@
 body, html {
   width: 100%;
   height: 100%;
+  scroll-padding-top: 7.5rem;
 }
 
 .navbar {
@@ -8,11 +9,11 @@ body, html {
   top: 0;
   left: 0;
   width: 100%;
-  height: 7.5rem;
+  min-height: 7.5rem;
   padding-left: 3rem;
   padding-right: 3rem;
-  z-index: 10;
   background-color: white;
+  z-index: 10;
 }
 
 .navbar-brand {
@@ -46,13 +47,32 @@ transform: translate(-50%, -50%);
 color: white;
 }
 
-.page-wrapper {
+.wrapper {
   max-width: 1000px;
+  height: 100%;
   margin: auto;
+}
+
+#about h1 {
+  text-align: center;
+  border-bottom: 1px solid black;
 }
 
 #about p {
   text-align: justify;
+}
+
+#contact-form h1 {
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+#user-message {
+  height: 10rem;
+}
+
+.footer {
+  width: 100%;
 }
 
 @media only screen and (min-width: 992px) {
