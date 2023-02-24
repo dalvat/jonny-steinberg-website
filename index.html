@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/styles/style.css">
+  <title>Jonny Steinberg</title>
+</head>
+<body>
+  
+  <!-- nav bar -->
+  <nav id="navbar-main" class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <!-- navbar brand -->
+      <h1 class="navbar-brand" href="#">Jonny Steinberg</h1>
+      <!-- navbar-collapse button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- navbaritems -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <!-- links -->
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          <!-- dropdown menu -->
+          <li id="dropdown-button" class="nav-item dropdown position-static">
+            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Publications
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end m-2 pt-3 pb-4 pe-4">
+              <li><h6 class="dropdown-header fs-6">Journalism</h6></li>
+              <li><a class="dropdown-item" href="#">Books</a></li>
+              <li><a class="dropdown-item" href="#">Newpaper Columns</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><h6 class="dropdown-header fs-6">Academic</h6></li>
+              <li><a class="dropdown-item" href="#">Papers</a></li>
+              <li><a class="dropdown-item" href="#">Monographs</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- hero banner -->
+  <div class="hero-image">
+    <div class="hero-text">
+      <h1>Jonny Steinberg</h1>
+      <p>South African writer and scholar</p>
+      <a role="button" class="btn btn-secondary" href="#about">About Jonny</a>
+    </div>
+  </div>
+  
+  <!-- about -->
+  <div class="page-wrapper">
+    <div id="about" class="col-12 center p-5">
+        <h1 class="card-title pb-4">About Jonny</h1>
+        <p class="card-text">Jonny is a South African writer and scholar. He is the author of several books about everyday life in the wake of South Africa’s transition to democracy. Two of them, Midlands (2002), about the murder of a white South African farmer, and The Number (2004), a biography of a prison gangster, won South Africa’s premier nonfiction award, the Sunday Times Alan Paton Prize.</p>
+        <p class="card-text">Steinberg’s books also include Three-Letter Plague (Sizwe’s Test in the United States), which chronicles a young man’s journey through South Africa’s AIDS pandemic.</p>
+        <p class="card-text">It was a Washington Post Book of the Year and was shortlisted for the Wellcome Trust Book Award, among others. Steinberg is also the author of Thin Blue (2008), an exploration of the unwritten rules of engagement between South African civilians and police, and Little Liberia: An African Odyssey in New York, about the Liberian civil war and its aftermath in an exile community in New York.</p>
+        <p class="card-text">Steinberg has a doctorate in political theory from the University of Oxford, where he was a Rhodes Scholar. He is currently a lecturer in African Studies at Oxford.</p>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
