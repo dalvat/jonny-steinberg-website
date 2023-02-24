@@ -1,2 +1,2 @@
 # jonny-steinberg-website
-Website design for Jonny Steinberg
+Website design concept for Jonny Steinberg
